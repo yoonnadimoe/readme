@@ -1,22 +1,23 @@
-OOP - Object Oriented Language
---------
+OOP - Object Orienting Programming
+-----
 
-Object
+Object 
 	- particular instance of class
 	- combination of variables, functions, data-structures
 
 Class
 	- behavior of objects
-	- properties, function
-------------------------------------------------------------------
+	- properties , function
 
-OOP Languages
+------------------------------------------------------
+
+OOP Language
 --------------
 - C++
 - Java
 - C#
 
------------------------------
+------------------------------------------------------
 
 1. Encapsulation
 2. Inheritance

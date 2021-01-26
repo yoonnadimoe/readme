@@ -1,0 +1,32 @@
+Online Bookstore ERD
+--------------------
+
+authors
+	id, name, photo, bio, dob, dod, nationality
+
+genres
+	id, name	 
+
+languages
+	id, name	
+
+books
+	id, title, mmtitle, coverphoto, isbn, pages, publishdate, language, price, discount, genre, summary, annotation, type, file(freeရရင် pdf/ price,discount), status ,author_id
+
+book_genre (pivot table => Many to Many RS)
+	id, book_id, genre_id
+
+book_order
+	id, qty, book_id, order_id		
+
+townships
+	id, name	
+
+shippings
+	id, fee, township_id		
+
+Orders
+	id, voucherno, total, status, deliveryaddress, shipping_id ,user_id
+
+===================================================================================================
+	
